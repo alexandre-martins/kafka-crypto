@@ -1,0 +1,22 @@
+{
+    "type": "struct",
+    "fields": [
+        {
+            "type": "string",
+            "optional": false,
+            "field": "currency"
+        },
+        {
+            "type": "float",
+            "optional": false,
+            "field": "amount"
+        },
+        {
+            "type": "string",
+            "optional": false,
+            "field": "timestamp"
+        }
+    ],
+    "optional": false,
+    "name": "crypto"
+}

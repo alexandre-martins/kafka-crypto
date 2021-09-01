@@ -1,0 +1,10 @@
+# Config file for defining required cryptos, setting partition mapping
+# and request frequency
+---
+currencies:
+  - name: 'BTC'
+    partition: 0
+    request_frequency: 5
+  - name: 'ETH'
+    partition: 1
+    request_frequency: 5
